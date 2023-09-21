@@ -12,7 +12,7 @@ import jakarta.persistence.TemporalType;
 
 @Entity
 @Table(name = "tbl_company")
-public class CompanyMaster {
+public class CompanyMaster {   //new comment is added
 	
 	@Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
